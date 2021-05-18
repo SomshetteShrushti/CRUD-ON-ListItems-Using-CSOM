@@ -3,3 +3,5 @@ This programs performs following operations
 2. Delete item from the list
 3. Update items to the list
 4. get items from the list
+5. Retrive attachments from the list items.
+6. Delete Attachments from the list Item.
