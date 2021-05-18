@@ -1,0 +1,15 @@
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\bin\Debug\CSOMCRUDOperations.exe.config
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\bin\Debug\CSOMCRUDOperations.exe
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\bin\Debug\CSOMCRUDOperations.pdb
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\bin\Debug\Microsoft.SharePoint.Client.xml
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\bin\Debug\Microsoft.SharePoint.Client.Runtime.xml
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\obj\Debug\CSOMCRUDOperations.csprojAssemblyReference.cache
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\obj\Debug\CSOMCRUDOperations.Form1.resources
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\obj\Debug\CSOMCRUDOperations.Properties.Resources.resources
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\obj\Debug\CSOMCRUDOperations.csproj.GenerateResource.cache
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\obj\Debug\CSOMCRUDOperations.csproj.CoreCompileInputs.cache
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\obj\Debug\CSOMCRUDOperations.csproj.CopyComplete
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\obj\Debug\CSOMCRUDOperations.exe
+C:\SharepointCSOMPRactice\CSOMCRUDOperations\CSOMCRUDOperations\obj\Debug\CSOMCRUDOperations.pdb
