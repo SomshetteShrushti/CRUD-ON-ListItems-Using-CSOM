@@ -106,5 +106,60 @@ namespace CSOMCRUDOperations
             }
             MessageBox.Show("Item Fetched  Successfully");
         }
+        
+        
+         /// <summary>
+        /// Get All Attachments from the listitem
+        /// </summary>
+        public static void GetAllAttachments()
+        {
+            using (ClientContext clientContext = new ClientContext("http://hr.zubaircorp.com/"))
+            {
+                Web web = clientContext.Web;
+                List list = web.Lists.GetByTitle("Employeebasic");
+                ListItem listItem = list.GetItemById(200);
+                clientContext.Load(listItem);
+                clientContext.ExecuteQuery();
+
+                AttachmentCollection attachments = listItem.AttachmentFiles;
+                clientContext.Load(attachments);
+                clientContext.ExecuteQuery();
+
+                foreach (Attachment oAttachment in attachments)
+                {
+                    Console.WriteLine("File Name - " + oAttachment.FileName);
+                }
+
+                Console.ReadKey();
+            }
+            
+        }
+
+        /// <summary>
+        /// To Delete Attchment file from the list
+        /// </summary>
+        public static void DeleteAttachments()
+        {
+            using (ClientContext clientContext = new ClientContext("http://hr.zubaircorp.com/"))
+            {
+                Web web = clientContext.Web;
+                List list = web.Lists.GetByTitle("Employeebasic");
+                ListItem listItem = list.GetItemById(200);
+                clientContext.Load(listItem);
+                clientContext.ExecuteQuery();
+
+                AttachmentCollection attachments = listItem.AttachmentFiles;
+                clientContext.Load(attachments);
+                clientContext.ExecuteQuery();
+
+                foreach (Attachment oAttachment in attachments)
+                {
+                    oAttachment.DeleteObject();
+                }
+                clientContext.ExecuteQuery();
+                Console.ReadKey();
+            }
+
+        }
     }
 }
