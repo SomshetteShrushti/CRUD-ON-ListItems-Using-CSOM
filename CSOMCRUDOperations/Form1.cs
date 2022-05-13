@@ -20,7 +20,7 @@ namespace CSOMCRUDOperations
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (ClientContext ctx = new ClientContext("http://vm-021-tzc02/sites/CSOMSite/"))
+            using (ClientContext ctx = new ClientContext("SiteURL"))
             {
                 Web web = ctx.Web;
                 List list = web.Lists.GetByTitle("Employee");
@@ -43,7 +43,7 @@ namespace CSOMCRUDOperations
         /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
-            using (ClientContext ctx = new ClientContext("http://vm-021-tzc02/sites/CSOMSite/"))
+            using (ClientContext ctx = new ClientContext("SiteRL"))
             {
                 // THis will delete single item from the list 
                 Web web = ctx.Web;
@@ -64,7 +64,7 @@ namespace CSOMCRUDOperations
         /// <param name="e"></param>
         private void button3_Click(object sender, EventArgs e)
         {
-            using (ClientContext ctx = new ClientContext("http://vm-021-tzc02/sites/CSOMSite/"))
+            using (ClientContext ctx = new ClientContext("SiteURL"))
             {
                 Web web = ctx.Web;
                 List list = web.Lists.GetByTitle("Employee");
@@ -86,7 +86,7 @@ namespace CSOMCRUDOperations
         /// <param name="e"></param>
         private void button4_Click(object sender, EventArgs e)
         {
-            using (ClientContext ctx = new ClientContext("http://vm-021-tzc02/sites/CSOMSite/"))
+            using (ClientContext ctx = new ClientContext("SiteURL"))
             {
 
                 Web web = ctx.Web;
@@ -113,7 +113,7 @@ namespace CSOMCRUDOperations
         /// </summary>
         public static void GetAllAttachments()
         {
-            using (ClientContext clientContext = new ClientContext("http://hr.zubaircorp.com/"))
+            using (ClientContext clientContext = new ClientContext("SiteURL"))
             {
                 Web web = clientContext.Web;
                 List list = web.Lists.GetByTitle("Employeebasic");
@@ -140,7 +140,7 @@ namespace CSOMCRUDOperations
         /// </summary>
         public static void DeleteAttachments()
         {
-            using (ClientContext clientContext = new ClientContext("http://hr.zubaircorp.com/"))
+            using (ClientContext clientContext = new ClientContext("SiteURL"))
             {
                 Web web = clientContext.Web;
                 List list = web.Lists.GetByTitle("Employeebasic");
